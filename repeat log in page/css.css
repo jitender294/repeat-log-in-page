@@ -1,0 +1,126 @@
+/* *{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    position: relative;
+    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    overflow: hidden;
+    height: 100vh;
+}
+
+.centre {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    /* border: 1px solid red; */
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.centre h1 {
+    /* border: 1px solid red; */
+    /* left: 50%;   why they do not work  */
+    position: relative;
+    top: -35px;
+    text-align: center;
+    /* border: 1px solid red; */
+    padding: 45px;
+    margin: -20px;
+    border-bottom: 1px solid #adadad;
+}
+
+.text_page {
+    position: relative;
+    /* left: 50px; */
+    /* border: 1px solid red; */
+    padding: 0 50px 0 50px;
+    margin: 20px;
+    /* margin: 25px; */
+    color: #adadad
+}
+
+.text_page input {
+    position: relative;
+    width: 100%;
+    /* border: none; */
+    border: none;
+    outline: none;
+    /* border: 1px solid red; */
+    height: 30px;
+    border-bottom: 2px solid #2691d9;
+}
+
+.text_page label {
+    position: relative;
+    top: -25px;
+    left: 10px;
+    transition: .5s;
+}
+
+.text_page :focus~label {
+    top: -55px;
+    color: #2691d9;
+}
+
+.pass {
+    text-align: center;
+    cursor: pointer;
+}
+
+.pass:hover {
+    text-decoration: underline;
+    color: #2691d9;
+}
+
+input[type="button"] {
+    position: relative;
+    border: 1px solid;
+    color: white;
+    width: 75%;
+    left: 12%;
+    cursor: pointer;
+    background-color: #2691d9;
+    border-radius: 20px;
+}
+
+input[type="button"]:hover {
+    border: #2691d9;
+}
+
+.sign_up {
+    text-align: center;
+    text-transform: capitalize;
+    color: #adadad;
+    cursor: pointer;
+}
+
+.sign_up:hover {
+    color: #2691d9;
+    text-decoration: underline;
+}
+
+a {
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    color: #adadad;
+    cursor: pointer;
+    left: 30%;
+    padding: 20px;
+    /* margin: 20px; */
+    /* border: 1px solid red; */
+}
+
+a:hover {
+    color: #2691d9;
+    text-decoration: underline;
+}
